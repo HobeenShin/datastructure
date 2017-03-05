@@ -47,8 +47,7 @@ public class MagicSquare {
 			this._board.setCell (currentLoc, 1);
 			int lastNumber = this._order*this._order;
 			for ( int number = 2; number < lastNumber; number++){
-				
-				
+								
 				if (!this._board.cellIsEmpty(nextLoc))
 				{
 					currentLoc.setRow(nextLoc.row()+1);
@@ -57,7 +56,7 @@ public class MagicSquare {
 				currentLoc.setRow(nextLoc.row());
 				currentLoc.setCol(nextLoc.col());
 				this._board.setCell(currentLoc, number);
-			}
+			} // I need to change this code.
 			return this._board;
 		}
 	} 
