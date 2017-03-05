@@ -60,7 +60,7 @@ public class MagicSquare {
 			}
 			return this._board;
 		}
-	} // 수정 필요
+	} 
 	
 
 	public OrderValidity checkOrderValidity(int order) {
